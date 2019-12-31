@@ -1,0 +1,29 @@
+.Cell {
+  height: 70px;
+  width: 70px;
+  background-color: #1D334A;
+
+
+}
+
+.Cell-lit {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 2px #fff;
+
+        
+  box-shadow: 
+        0px 0px 5px 5px #0ff,
+        inset 60px 0 120px #f0f,  /* left magenta */
+        inset -60px 0 120px #0ff; /* right cyan */
+  z-index: 2;
+    /* box-shadow: 
+  .05vw 0vw .12vw #ffd8d8, .1vw 0vw .12vw #ffd8d8, .2vw 0vw .12vw #ffd8d8, 
+  .05vw 0vw   0vw #f25757, .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757,
+  .05vw 0vw  .05vw #f25757, .1vw 0vw  .05vw #f25757, .2vw 0vw  .05vw #f25757,
+  .05vw 0vw   1vw #f25757, .1vw 0vw   1vw #f25757, .2vw 0vw   1vw #f25757, 
+  .05vw 0vw   0.5vw #e50b0b, .1vw 0vw   0.5vw #e50b0b, .2vw 0vw   2.5vw #e50b0b, 
+  .05vw 0vw   2.5vw #e50b0b, .1vw 0vw  10vw #e50b0b, .2vw 0vw  5vw #e50b0b,
+  .05vw 0vw  5vw #e50b0b, .1vw 0vw  15vw #e50b0b, .2vw 0vw  5vw #e50b0b; */
+}
+
